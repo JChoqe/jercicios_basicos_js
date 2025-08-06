@@ -5,7 +5,5 @@ const alien = {
     weight: 180
 };
 for (const key in alien) {
-    if (alien.hasOwnProperty(key)) {
-        console.log(`La propiedad ${key} tiene como valor ${alien[key]}`);
-    }
+    console.log(`La propiedad ${key} tiene como valor ${alien[key]}`);
 }
