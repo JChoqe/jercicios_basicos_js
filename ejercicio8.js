@@ -4,3 +4,4 @@ function findLongestWord(stringList) {
     return stringList[0];
 }
 console.log(findLongestWord(avengers));
+console.log(avengers);
